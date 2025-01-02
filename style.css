@@ -1,0 +1,234 @@
+body {
+    font-family: 'Quicksand';
+    background-color: #DFF2EB;
+    margin: 0;
+    height: 400px
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    align-items: center;
+    background-color: #4A628A;
+    padding: 20px;
+}
+
+header h1 {
+    color: #000000;
+}
+
+span {
+    color: #133E87;
+}
+
+nav {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #608BC1;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    
+    background-color: #B9E5E8;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.gambar {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 2px grey;
+}
+
+main {
+    padding: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-konten {
+    max-width: 70%;
+    padding: 20px;
+}
+
+.about-konten p {
+    margin-bottom: 15px;
+}
+
+.img-home img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-pipas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: inset;
+}
+
+.pipas-konten {
+    max-width: 100%;
+    padding: 7px 20px 20px 20px;
+}
+
+.pipas-konten h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.pipas-konten h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pipas-konten p {
+    font-size: 20px;
+}
+
+.pipas-konten ol {
+    font-size: 20px;
+}
+
+.pipas-konten ol li {
+    margin-bottom: 5px;
+}
+
+.artikel {
+    background: rgb(223,242,235);
+    background: linear-gradient(90deg, rgba(223,242,235,1) 0%, rgba(107,130,139,0.947391456582633) 50%, rgba(223,242,235,1) 100%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+}
+
+.artikel ul a{
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.artikel a:hover {
+    color: white;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: red;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.all-pict h2 {
+    margin-left: 35px;
+    font-size: xx-large;
+}
+
+.all-pict hr {
+    width: 1100px;
+    font-weight: bold;
+}
+
+.artikel hr {
+    width: 100px;
+}
+
+.img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.sumber {
+    gap: 20px;
+}
+
+.sumber h1 a {
+    margin-left: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sumber a:hover {
+    color: #608BC1;
+}
+
+/* Dari YouTube */
+.kontener {
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
